@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My first JS function</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Simple function to be executed in console</div>
+        <p>Call a function which performs a calculation and returns the result:</p>
+        <p id="demo"></p>
+
+        <script>
+            function myFunction(a, b, c) {
+                return a + b + c;
+            }
+
+            var x = myFunction(1, 3, 2);
+            document.getElementById("demo").innerHTML = x;
+
+            console.log(x);
+        </script>
+    </body>
+</html>
